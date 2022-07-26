@@ -1460,7 +1460,7 @@ hr.invis1 {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	display: block;
-	height: 675px;
+	height: 850px;
 	left: calc(50% + 0.5px);
 	position: absolute;
 	top: 24px;
@@ -1556,16 +1556,17 @@ hr.invis1 {
     text-align: center;
 }
 .our-team .team_img{
-    position: relative;
+    
+    
     overflow: hidden;
 }
 .our-team .team_img:after{
     content: "";
-   
+    position:absolute;
     background-color: rgba(255,255,255,0.2);
-    position: absolute;
-    bottom: -100%;
-    left: 0;
+    position: center;
+   
+   
     transition: all 0.3s ease 0s;
 }
 .our-team:hover .team_img:after{
